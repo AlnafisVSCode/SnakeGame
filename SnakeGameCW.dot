@@ -1,0 +1,444 @@
+digraph "history" {
+	graph [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		nodesep = "1.5"
+		ranksep = "1.5"
+	]
+	node [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		shape = "ellipse"
+		style = "solid"
+	]
+	edge [
+		fontsize = "14"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		style = "solid"
+	]
+	"0" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "board = \{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100\},ladder(3) = 39,ladder(10) = 12,\nladder(27) = 53,ladder(56) = 84,ladder(61) = 99,\nladder(72) = 90,snakeHead(16) = 13,snakeHead(31) = 4,\nsnakeHead(47) = 25,snakeHead(63) = 60,snakeHead(66) = 52,\nsnakeHead(97) = 75,diceSet = \{1,2,3,4,5,6\}"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"1" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (2)\ncurrentPosition = 1,previous_Positions = 1,snakes_Encountered = 0,\nladdersEncountered = 0,squaresVisited = \{\},numOfTurnsTaken = 0"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"3" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (3)\ncurrentPosition = 39,previous_Positions = 3,snakes_Encountered = 0,\nladdersEncountered = 1,squaresVisited = \{1\},numOfTurnsTaken = 1"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"12" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 44,previous_Positions = 39,snakes_Encountered = 0,\nladdersEncountered = 1,squaresVisited = \{1,3,39\},numOfTurnsTaken = 2"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"13" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 45,previous_Positions = 39,snakes_Encountered = 0,\nladdersEncountered = 1,squaresVisited = \{1,3,39\},numOfTurnsTaken = 2"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"19" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (3)\ncurrentPosition = 51,previous_Positions = 45,snakes_Encountered = 0,\nladdersEncountered = 1,squaresVisited = \{1,3,39,45\},numOfTurnsTaken = 3"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"25" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 57,previous_Positions = 51,snakes_Encountered = 0,\nladdersEncountered = 1,squaresVisited = \{1,3,39,45,51\},numOfTurnsTaken = 4"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"31" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (4)\ncurrentPosition = 60,previous_Positions = 63,snakes_Encountered = 1,\nladdersEncountered = 1,squaresVisited = \{1,3,39,45,51,57\},numOfTurnsTaken = 5"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"32" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 99,previous_Positions = 61,snakes_Encountered = 1,\nladdersEncountered = 2,squaresVisited = \{1,3,39,45,51,57,60,63\},numOfTurnsTaken = 6"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"41" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 25,previous_Positions = 47,snakes_Encountered = 1,\nladdersEncountered = 1,squaresVisited = \{1,3,39,44\},numOfTurnsTaken = 3"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"46" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 53,previous_Positions = 27,snakes_Encountered = 1,\nladdersEncountered = 2,squaresVisited = \{1,3,25,39,44,47\},numOfTurnsTaken = 4"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"53" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (6)\ncurrentPosition = 84,previous_Positions = 56,snakes_Encountered = 1,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53\},numOfTurnsTaken = 5"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"62" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 90,previous_Positions = 84,snakes_Encountered = 1,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,84\},numOfTurnsTaken = 6"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"65" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 93,previous_Positions = 90,snakes_Encountered = 1,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,84,90\},numOfTurnsTaken = 7"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"72" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (2)\ncurrentPosition = 75,previous_Positions = 97,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,84,90,93\},numOfTurnsTaken = 8"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"80" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 81,previous_Positions = 75,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,84,90,93,97\},numOfTurnsTaken = 9"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"82" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 83,previous_Positions = 81,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,81,84,90,93,97\},numOfTurnsTaken = 10"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"87" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 84,previous_Positions = 83,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,81,83,84,90,93,97\},numOfTurnsTaken = 11"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"98" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "currentPosition = 90,previous_Positions = 84,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,81,83,84,90,93,97\},numOfTurnsTaken = 12"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"104" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (2)\ncurrentPosition = 96,previous_Positions = 90,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,81,83,84,90,93,97\},numOfTurnsTaken = 13"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"107" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (5)\ncurrentPosition = 99,previous_Positions = 96,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,81,83,84,90,93,96,97\},numOfTurnsTaken = 14"
+		shape = "box"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"109" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "repeated (2)\ncurrentPosition = 100,previous_Positions = 99,snakes_Encountered = 2,\nladdersEncountered = 3,squaresVisited = \{1,3,25,27,39,44,47,53,56,75,81,83,84,90,93,96,97,99\},numOfTurnsTaken = 15"
+		shape = "doubleoctagon"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"root" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		penwidth = "2"
+		label = "root"
+		shape = "invtriangle"
+		style = "solid"
+		color = "#99BF38"
+	]
+	"root" -> "0" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "SETUP_CONSTANTS"
+		style = "dotted"
+		color = "black"
+	]
+	"0" -> "1" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "INITIALISATION"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "3" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(2)--\>39,GoUpALadder"
+		style = "solid"
+		color = "#006391"
+	]
+	"3" -> "13" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>45,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"13" -> "19" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>51,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"19" -> "25" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>57,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"25" -> "31" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>60,WentDownASnake"
+		style = "solid"
+		color = "#006391"
+	]
+	"31" -> "32" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(1)--\>99,GoUpALadder"
+		style = "solid"
+		color = "#006391"
+	]
+	"32" -> "1" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "PlayNewGame--\>NewGame"
+		style = "solid"
+		color = "#006391"
+	]
+	"1" -> "3" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(2)--\>39,GoUpALadder"
+		style = "solid"
+		color = "#006391"
+	]
+	"3" -> "12" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(5)--\>44,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"12" -> "41" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(3)--\>25,WentDownASnake"
+		style = "solid"
+		color = "#006391"
+	]
+	"41" -> "46" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(2)--\>53,GoUpALadder"
+		style = "solid"
+		color = "#006391"
+	]
+	"46" -> "53" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(3)--\>84,GoUpALadder"
+		style = "solid"
+		color = "#006391"
+	]
+	"53" -> "62" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>90,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"62" -> "65" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(3)--\>93,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"65" -> "72" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(4)--\>75,WentDownASnake"
+		style = "solid"
+		color = "#006391"
+	]
+	"72" -> "80" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>81,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"80" -> "82" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(2)--\>83,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"82" -> "87" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(1)--\>84,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"87" -> "98" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>90,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"98" -> "104" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(6)--\>96,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"104" -> "107" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(3)--\>99,Nomal_Move"
+		style = "solid"
+		color = "#006391"
+	]
+	"107" -> "109" [
+		fontsize = "12"
+		fontname = "Times-Roman"
+		fontcolor = "black"
+		label = "roll(1)--\>100,Finished_and_GameWon"
+		style = "solid"
+		color = "#006391"
+	]
+}
